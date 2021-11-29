@@ -8,16 +8,18 @@
 body{
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-.gridContainer{
+#gridContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
     outline: 1px solid black;
-    width: 800px;
-    height: 800px;
-    margin-top: 50px;
+    width: 960px;
+    height: 960px;
+
 }
 
 .row{
@@ -27,17 +29,17 @@ body{
 }
 
 .column{
-    width: 5px;
-    height: 5px;
     margin: 0px;
-    flex: 1
+    flex: 1;
 }
 
 
 .clearButton{
-    width: 50px;
+    width: 75px;
     height: 30px;
-    border: none;
+    border: 2px solid black;
     border-radius: 5px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: seashell;
 }
